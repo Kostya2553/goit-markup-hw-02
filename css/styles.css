@@ -7,13 +7,10 @@
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
-  --accent-color: #2196F3;
-  --secondary-color:
+  --accent-color: #2196f3;
+  --secondary-color: ;
 }
 /*============ INDEX.HTML ============*/
-
-
-
 
 /*============ HEADER ============*/
 .logo {
@@ -25,14 +22,14 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-.logo-web{
+.logo-web {
   font-family: var(--secondary-font);
-font-weight: bold;
-font-size: 26px;
-line-height: 0.7;
-/* identical to box height */
-letter-spacing: 0.03em;
-color: #2196F3;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 0.7;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 .menu-link {
   font-family: var(--main-font);
@@ -43,8 +40,9 @@ color: #2196F3;
   color: #212121;
 }
 .menu-link:hover,
-.menu-link:focus
-{color: var(--accent-color);}
+.menu-link:focus {
+  color: var(--accent-color);
+}
 
 .contact-link {
   font-family: var(--main-font);
@@ -52,15 +50,13 @@ color: #2196F3;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
- color: #757575;
+  color: #757575;
 }
 .contact-link:hover,
-.contact-link:focus 
-{color: var(--accent-color);}
+.contact-link:focus {
+  color: var(--accent-color);
+}
 /*============ HEADER END ============*/
-
-
-
 
 /*============ ABOUT 1 ============*/
 .modal-btn {
@@ -86,13 +82,10 @@ color: #2196F3;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
-  background: #2F303A;
+  color: #ffffff;
+  background: #2f303a;
 }
 /*============ ABOUT 1 END ============*/
-
-
-
 
 /*============ ABOUT 2 ============*/
 .head-lines {
@@ -114,9 +107,6 @@ color: #2196F3;
   color: #757575;
 }
 /*============ ABOUT 2 END ============*/
-
-
-
 
 /*============ ABOUT 3 ============*/
 .page-what-group {
@@ -152,9 +142,6 @@ color: #2196F3;
 
 /*============ ABOUT 3 END ============*/
 
-
-
-
 /*============ FOOTER ============*/
 .logo-footer {
   font-family: var(--main-font);
@@ -163,9 +150,8 @@ color: #2196F3;
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color:  #FFFFFF;
+  color: #ffffff;
 }
-
 
 .contact-footer-adres {
   font-family: var(--main-font);
@@ -174,87 +160,79 @@ color: #2196F3;
   line-height: 1, 71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .contact-footer-adres:hover,
-.contact-footer-adres:focus 
-{color: var(--accent-color);}
+.contact-footer-adres:focus {
+  color: var(--accent-color);
+}
 
 .contact-footer {
-font-family: var(--main-font);
-font-weight: normal;
-font-size: 14px;
-line-height: 1.71;
-/* or 171% */
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 .contact-footer:hover,
-.contact-footer:focus 
-{color: var(--accent-color);}
+.contact-footer:focus {
+  color: var(--accent-color);
+}
 
 .beck-footer {
- background: #2F303A;
+  background: #2f303a;
 }
 /*============ FOOTER END ============*/
 
-
-
-
 /*============ INDEX.HTML END ============*/
-
-
-
 
 /*============ PARTFOLIO.HTML ============*/
 
-
-
 /*============ NAV BTN ============*/
 .btn-list {
-font-family: var(--main-font);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-/* identical to box height, or 162% */
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
-background: #F5F4FA;
-border-radius: 4px;
-outline: none;
-border: transparent
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  outline: none;
+  border: transparent;
 }
 .btn-list:hover,
-.btn-list:focus 
-{color:#FFFFFF;
-background: #2196F3;
+.btn-list:focus {
+  color: #ffffff;
+  background: #2196f3;
 }
 /*============ NAV BTN END ============*/
 
-
-
 .photo-second-name-list {
   font-family: var(--main-font);
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 1.87;
-/* identical tobox height, or 187% */
-letter-spacing: 0.03em;
-color: #757575;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical tobox height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
 /*============ ABOUT PHOTO ============*/
 .photo-name-list {
-font-family: var(--main-font);
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-/* identical to box height, or 200% */
-letter-spacing: 0.06em;
-color: #212121;
-
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
 
 /*============ ABOUT PHOTO AND ============*/
